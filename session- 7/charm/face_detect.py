@@ -22,7 +22,6 @@ while True:
         cv2.imshow("My Screen", frame)
         cv2.imshow("My Face", gray)
 
-
     key = cv2.waitKey(1)
 
     if key == ord("q"):

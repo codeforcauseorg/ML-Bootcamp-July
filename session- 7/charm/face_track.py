@@ -23,9 +23,9 @@ while True:
         lip_down = landmarks.parts()[66].y
 
         if lip_down - lip_up > 5:
-            keyboard.release("up")
+            keyboard.release("down")
         else:
-            keyboard.press("up")
+            keyboard.press("down")
 
 
         # print(nose.x, nose.y)
